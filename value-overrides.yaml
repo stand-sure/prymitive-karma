@@ -19,7 +19,7 @@ fullnameOverride: ""
 
 env:
 - name: ALERTMANAGER_URI
-  value: http://kube-prometheus-stack-alertmanager.monitoring:9093
+  value: http://alertmanager-operated.monitoring:9093
 #   value: http://monitoring-prometheus-alertmanager
 
 service:
